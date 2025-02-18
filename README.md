@@ -7,8 +7,8 @@ Technical setup:
 - Created with bolt.diy and AI Claude 3.5 Sonnet
 - Backend: Create Supabase project and enter API key on .env file
 - Frontend: Vue template from codacus. To create static files to host anywhere (no nodejs needed) compile the build at Bolt Terminal with command "npm run build" -> upload the files in dist-folder to webroot.
-- Signup email smtp setup in supabase for sendgrid
-- PHP file send_reminders.php scheduled with cron job at hosting site (or create supabase edge function to send on a schedule). Supabase provides another API key without row level security.
+- In Supabase set SendGrid as the STMP server for signup etc emails
+- PHP file send_reminders.php is scheduled with cron job at hosting site (or create supabase edge function to send on a schedule). Supabase provides another API key without row level security.
 
   Supabase table definition:
   create table public.reminders (
