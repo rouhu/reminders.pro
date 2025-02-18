@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/lib/supabase.ts","./src/router/index.ts","./src/stores/auth.ts","./src/types/reminder.ts","./src/App.vue","./src/views/Home.vue","./src/views/Login.vue","./src/views/Register.vue","./src/views/ReminderDetail.vue","./src/views/ReminderForm.vue","./src/views/ReminderList.vue","./src/views/ResetPassword.vue"],"version":"5.7.3"}
